@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="adhamya colorfull.png" alt="">
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">EVENTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                    <li><a href="">HOME</a></li>
+                </ul>
+            </div>
+            <!-- Fixed syntax here -->
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>ESPORTIVO</h1>
+            <p>Gear up for the ultimate showdown at the University of Visvesvaraya College of Engineering Sports Meet! Dive into two action-packed days on 10th and 11th October, featuring over 15 exhilarating events! Don’t miss out on the thrill and excitement!</p>
+        </div>
+    </section>
+    
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- course -->
+     <section class="course">
+        <h1>SPORTS CATEGORIES</h1>
+        <p class="p1">A lot of sports be have</p>
+        <div class="row">
+            <div class="sports-col">
+                <h3>Mens sports</h3>
+                <p>Lorem ipsum dolor sit amet p>
+            </div>
+            <div class="sports-col">
+                <h3>Womens sports</h3>
+                <p>Lorem ipsum dolor sit amet p>
+            </div>
+           
+            <div class="sports-col">
+                <h3>Esports</h3>
+                <p>Lorem ipsum dolor sit amet p>
+            </div>
+           
+        </div>
+
+       
+</section>
+ <!--         brochure                   -->
+<section class="brochure">
+    <h1>To know more click below</h1>
+    <a href="path_to_brochure.pdf" target="_blank" class="btn">View brochure</a>
+    <a href="path_to_event_schedule.pdf" target="_blank" class="btn">Event schedule</a>
+  </section
+  
+<!-- Stats -->
+ <!--         brochure                   -->
+ <section class="stats">
+    <div class="stat">
+      <h1>30+</h1>
+      <p>Thrilling Events</p>
+    </div>
+    <div class="stat">
+      <h1>2</h1>
+      <p>Days of Excitement</p>
+    </div>
+    <div class="stat">
+      <h1>Infinite</h1>
+      <p>Possibilities Await</p>
+    </div>
+  </section>
+<!-- Register section -->
+<div class="container">
+    <section class="main-content">
+        <h2>Join the Ultimate Fest Experience Now! Register Now</h2>
+        <div class="button-group">
+            <button class="btn-general">MensEvents</button>
+            <button class="btn-flagship">Women Events</button>
+            <button class="btn-gaming">Mix Events</button>
+            <button class="btn-alumni">Esports Events</button>
+        </div>
+    </section>
+</div>
+
+
+        
+</body>
+</html>
+ 
